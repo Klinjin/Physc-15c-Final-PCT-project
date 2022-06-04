@@ -3,9 +3,18 @@
 
 Final report for group The Wednesdays's point contact transistor.
 
-## TRANSISTORS: POINT CONTACT TRANSISTOR
+## TRANSISTOR FUNDAMENTALS
 
-[jacob]
+Since their invention in the mid-20th century, transistors have completely revolutionized the electronics and information landscape. The transistor is widely considered to be the most important invention of the 20th century. Every communications and computing device operates with the function of the transistor. 
+
+The two key characteristics of a transistor are signal amplification and current on-off switching. Although there are many different kinds of transistors that rely on markedly different principles of semiconductor physics, they all have these two abilities. In all transistors, a voltage from an input circuit (the base terminal) changes the effective resistance between the collector and emitter terminals. 
+
+!(https://raw.githubusercontent.com/Klinjin/Physc-15c-Final-PCT-project/main/transistor.png)
+
+This can amplify a signal: a weak signal can power the input circuit, changing the voltage of the base terminal. The output circuit for the collector and emitter terminals can have a very large voltage source. Even if the resistance between the collector and emitter terminals is weakly varied, a large variation in current can be generated, leading to a large power amplification compared to the input circuit. This is why transistors are ubiquitous in all communications devices that rely on receiving and transmitting signals.
+
+The same principle can also be used to implement on-off switching: changing the base voltage from 0 to V will switch the current from the collector to emitter terminals either on or off. This fact is why transistors can be used to realize digital logic. Thus, any modern day computer contains billions of transistors, each of them on the nanometer scale. 
+
 
 ## THE GERMANIUM DIODE
 Early semiconductor developments used germanium
