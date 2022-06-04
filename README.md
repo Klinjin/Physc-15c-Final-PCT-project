@@ -107,8 +107,9 @@ Two hot-glued terminals in contact with the germanium, stabilized together by a 
 Another detail is that the conductor is very thin so even easier to break after being sanded. The hot glue protects the wires. The wires were soldered to jumper wires for taking measurements through LabJack, and heat shrink tube was also used to protect the fragile device,
 <img width="792" alt="截屏2022-06-03 上午2 26 10" src="https://user-images.githubusercontent.com/102839205/171827860-8b9caa78-21c2-4945-85bd-6afd4b5e1396.png">
 
-## PERFORMANC
-[justin]
 
-## FUTURE IMPROVEMENTS
-[justin]
+##PERFORMANCE
+The device managed to show that we had contact between the collector, the doped germanium, and the emitter. We saw a pretty clear saturation region between Ve and Vc.
+
+##FUTURE IMPROVEMENTS
+Ideally, we'd want to test our device for amplification. It would also be advisable to use a bigger diode to establish better contact. For further study, it would be ideal to be useful to better understand the inner workings of the point contact transistor, rather than the modern chemical ones we use today.
