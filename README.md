@@ -15,6 +15,30 @@ This can amplify a signal: a weak signal can power the input circuit, changing t
 
 The same principle can also be used to implement on-off switching: changing the base voltage from 0 to V will switch the current from the collector to emitter terminals either on or off. This fact is why transistors can be used to realize digital logic. Thus, any modern day computer contains billions of transistors, each of them on the nanometer scale. 
 
+## TRANSISTOR HISTORY
+
+The fundamental transistor design implemented on modern day circuit boards is the field-effect transistor (FET). 
+
+![fet](https://raw.githubusercontent.com/Klinjin/Physc-15c-Final-PCT-project/main/fig1.png)
+
+A metal gate separated from the semiconductor layer by an oxide layer can remotely change the carrier concentration in the semiconducting layer. A voltage on the metal gate can induce a change in charge density in the semiconductor by relying on their mutual capacitance. Thus, the conductivity between the source and drain terminals can be changed remotely using the gate terminal, achieving the transistor function.
+
+But prior to the invention of the FET, most transistors were junction transistors. The first of these was the bipolar junction transistor (BJT), invented by William Shockley in 1948.
+
+![bjt](https://raw.githubusercontent.com/Klinjin/Physc-15c-Final-PCT-project/main/npn.png)
+
+The input circuit controls the voltage applied to the base, V_BE. This varies the current that flows between the collector and the emitter. When the voltage to the base is zero, the output circuit, between the collector and the emitter, consists of two back to back diodes in opposite directions. As a result, very little current flows. When there is a non-zero voltage applied to the base, the base-emitter p-n junction becomes forward biased. Then electrons will flow from the first n-region to the p-region. If the p-region is sufficiently thin, the majority of these electrons will diffuse all the way to the second n-region. These diffusing electrons form the collector current. The remaining electrons recombine with holes in the p-region and form the base current. If the transistor design is optimized, the collector current can exceed the base current by several orders of magnitude, achieving a strong amplification going from the input to the output circuit.
+
+Although the BJT was one of the first transistors ever invented, it was not the very first. The precursor to the BJT, invented by the same people (Shockley’s group), was the point contact transistor (PCT). 
+
+![pct](https://raw.githubusercontent.com/Klinjin/Physc-15c-Final-PCT-project/main/pct.png)
+
+The point contact transistor consisted of a block of majority n-doped germanium with a thin p-doped region on the surface. The bottom is connected to the base terminal, and two gold contacts placed very closely next to each other on the p-doped region form the emitter and collector terminals. In 1947, Brattain and Bardeen, working under Shockley at Bell Labs, successfully demonstrated transistor amplification for the first time using this setup. This discovery won them the Nobel Prize in physics. Due to the impracticality of this setup, the design was quickly replaced by the BJT, which was structurally and electronically much more reliable. Despite being the first transistor design, the PCT never received full commercialization. Its physical function has not been carefully researched, and there remain some mysteries behind why it works in the first place. Hence, we do not make an attempt to explain how it works.
+
+However, in trying to build a home-made transistor, the PCT remains as an attractive starting point, especially considering its historical significance. Unlike all other transistor designs, which require careful growth and doping regimens, the PCT builds upon simple germanium p-n junctions, which are found in any cheap germanium diode. 
+
+
+
 
 ## THE GERMANIUM DIODE
 Early semiconductor developments used germanium
